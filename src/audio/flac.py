@@ -100,6 +100,7 @@ class Flac(core.Music):
                     u'GENRE': 'genre',
                     # FIXME: try to convert userdate to timestamp
                     u'DATE': 'userdate',
+                    u'BPM': 'bpm',
                 }
                 for key, attr in map.items():
                     if key in header:
